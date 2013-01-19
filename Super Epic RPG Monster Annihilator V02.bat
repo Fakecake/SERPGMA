@@ -2,6 +2,7 @@
 
 :0
 	cls
+	echo   V02
 	echo   ____________________________________________________________________________
 	echo  /                                                                            \
 	echo  \              Welcome to super epic RPG monster annihilator!!!!1            /
@@ -13,10 +14,10 @@
 	echo  \                                2 -- Exit game                              /
 	echo  /                                                                            \
 	echo  \----------------------------------------------------------------------------/
-	echo Start the game? Exit the game?
-	echo Whatever you choose, it will be the most important choice
-	echo you make in this game, so choose wisely
-	echo - 
+	echo  Start the game? Exit the game?
+	echo  Whatever you choose, it will be the most important choice
+	echo  that you make in this game, so choose wisely
+	echo  - 
 	set /p QUESTION=""Whatever you choose, it will be the most important choice you make in this game, so choose wisely
 echo:
 	IF %QUESTION%==1 GOTO :1
@@ -27,18 +28,18 @@ echo:
 	cls
 	echo  ____________________________________________________________________________
 	echo /                                                                            \
-	echo \Awesome Alpha testers! YEAH!                                                /
-	echo /Natasialingen!                                                              \
-	echo \and                                                                         /
-	echo /Alfieboy!                                                                   \
+	echo \ Awesome Alpha testers! YEAH!                                               /
+	echo / Natasialingen!                                                             \
+	echo \                                                                            /
+	echo / and Alfieboy!                                                              \
 	echo \                                                                            /
 	echo /----------------------------------------------------------------------------\
 	echo \                                                                            /
 	echo /Credits:                                                                    \
 	echo \Alpha testers for alpha testing,                                            /
 	echo /Alfieboy for porting the game to linux and mac                              \
-	echo \                                                                        /
-	echo / and Me! W00t!                                                                   \                                                                            \
+	echo \                                                                            /
+	echo / and Me! W00t!                                                              \                                                                            \
 	echo \----------------------------------------------------------------------------/
 	echo /                                                                            \
 	echo \                                   1 - Go back?                             /
