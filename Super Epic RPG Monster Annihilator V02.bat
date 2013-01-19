@@ -2,7 +2,7 @@
 
 :0
 	cls
-	echo   V02
+	echo   V02-01
 	echo   ____________________________________________________________________________
 	echo  /                                                                            \
 	echo  \              Welcome to super epic RPG monster annihilator!!!!1            /
@@ -18,7 +18,7 @@
 	echo  Whatever you choose, it will be the most important choice
 	echo  that you make in this game, so choose wisely
 	echo  - 
-	set /p QUESTION=""Whatever you choose, it will be the most important choice you make in this game, so choose wisely
+	set /p QUESTION=""
 echo:
 	IF %QUESTION%==1 GOTO :1
 	IF %QUESTION%==2 GOTO :2
