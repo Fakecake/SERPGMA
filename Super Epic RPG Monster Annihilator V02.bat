@@ -2,21 +2,21 @@
 
 :0
 	cls
-	echo  _____________________________________________________________________________
-	echo /                                                                              \
-	echo \              Welcome to super epic RPG monster annihilator!!!!1              /
-	echo /------------------------------------------------------------------------------\
-	echo \------------------------------------------------------------------------------/
-	echo /                                                                              \
-	echo \                                1 - Start game                                /
-	echo /                                                                              \
-	echo \                                2 -- Exit game                                /
-	echo /                                                                              \
-	echo \------------------------------------------------------------------------------/
+	echo   ____________________________________________________________________________
+	echo  /                                                                            \
+	echo  \              Welcome to super epic RPG monster annihilator!!!!1            /
+	echo  /----------------------------------------------------------------------------\
+	echo  \----------------------------------------------------------------------------/
+	echo  /                                                                            \
+	echo  \                                1 - Start game                              /
+	echo  /                                                                            \
+	echo  \                                2 -- Exit game                              /
+	echo  /                                                                            \
+	echo  \----------------------------------------------------------------------------/
 	echo Start the game? Exit the game?
 	echo Whatever you choose, it will be the most important choice
 	echo you make in this game, so choose wisely
-	echo  
+	echo - 
 	set /p QUESTION=""Whatever you choose, it will be the most important choice you make in this game, so choose wisely
 echo:
 	IF %QUESTION%==1 GOTO :1
@@ -25,19 +25,26 @@ echo:
 
 :0.5
 	cls
-	echo -------------------------------------
-	echo Awesome Alpha testers! YEAH!
-	echo Natasialingen!
-	echo and
-	echo Alfieboy!
-	echo -------------------------------------
-	echo Credits:
-	echo Alpha testers for alpha testing,
-	echo Alfieboy for porting the game to linux and mac
-	echo and
-	echo Me! W00t!
-	echo -------------------------------------
-	set /p QUESTION=1 - Go back?
+	echo  ____________________________________________________________________________
+	echo /                                                                            \
+	echo \Awesome Alpha testers! YEAH!                                                /
+	echo /Natasialingen!                                                              \
+	echo \and                                                                         /
+	echo /Alfieboy!                                                                   \
+	echo \                                                                            /
+	echo /----------------------------------------------------------------------------\
+	echo \                                                                            /
+	echo /Credits:                                                                    \
+	echo \Alpha testers for alpha testing,                                            /
+	echo /Alfieboy for porting the game to linux and mac                              \
+	echo \                                                                        /
+	echo / and Me! W00t!                                                                   \                                                                            \
+	echo \----------------------------------------------------------------------------/
+	echo /                                                                            \
+	echo \                                   1 - Go back?                             /
+	echo /                                                                            \
+	echo \----------------------------------------------------------------------------/
+	set /p QUESTION=""
 echo:
 	IF %QUESTION%==1 GOTO :0
 	IF %QUESTION%==1 GOTO :0.5
