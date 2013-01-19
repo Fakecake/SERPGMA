@@ -1,0 +1,29 @@
+GAME SCENE TEMPLATE!!!!! <<<COMMENT!
+	
+
+
+
+
+cls
+	echo  ._________________________________.
+	echo /                                   \
+	echo \   Scene title/action performed    /
+	echo / --------------------------------- \
+	echo \ DescriptionDescriptionDescription /
+	echo / DescriptionDescriptionDescription \
+	echo \ DescriptionDescriptionDescription /
+	echo / DescriptionDescriptionDescription \
+	echo \ DescriptionDescriptionDescription /
+	echo / DescriptionDescriptionDescription \
+	echo \ --------------------------------- /
+	echo /					 \
+	echo \  1 - Do something                 /
+	echo /  2 - Do something else            \
+	echo \  3 - Scream like an imbecile      /
+	echo /      and shit on your desk        \
+	echo \._________________________________./
+	echo 
+	set /p QUESTION=What you goin do?
+echo:
+	IF %QUESTION%==1 GOTO :1
+	IF %QUESTION%==2 GOTO :2			 
