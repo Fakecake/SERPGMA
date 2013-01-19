@@ -1,7 +1,7 @@
 @echo off
 :0
 	cls
-	echo   V02-01
+	echo   V02-02
 	echo   ____________________________________________________________________________
 	echo  /                                                                            \
 	echo  \              Welcome to super epic RPG monster annihilator!!!!1            /
@@ -242,8 +242,10 @@ echo:
 	echo  Four
 	ping localhost -n 3 > nul
 	echo  Oh, you're not kidding anyone!
-	echo  You're tacoo weak to do even one pushup, weakling!
+	echo  You're too weak to do even one pushup, weakling!
 	echo  --------------------------------------------
 	echo  1 - Stop doing pushups
 	set /p QUESTION=""
 	GOTO :5
+
+:1-1
