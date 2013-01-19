@@ -1,5 +1,4 @@
 @echo off
-
 :0
 	cls
 	echo   V02-01
@@ -17,8 +16,8 @@
 	echo  Start the game? Exit the game?
 	echo  Whatever you choose, it will be the most important choice
 	echo  that you make in this game, so choose wisely
-	echo  - 
-	set /p QUESTION=""
+	echo. 
+	set /p QUESTION="-"
 echo:
 	IF %QUESTION%==1 GOTO :1
 	IF %QUESTION%==2 GOTO :2
@@ -42,14 +41,29 @@ echo:
 	echo / and Me! W00t!                                                              \                                                                            \
 	echo \----------------------------------------------------------------------------/
 	echo /                                                                            \
-	echo \                                   1 - Go back?                             /
+	echo \                               1 - White text                               /
+	echo /                               2 - Green text                               \
+	echo \                                3 - Red text                                /
 	echo /                                                                            \
 	echo \----------------------------------------------------------------------------/
 	set /p QUESTION=""
 echo:
-	IF %QUESTION%==1 GOTO :0
-	IF %QUESTION%==1 GOTO :0.5
+	IF %QUESTION%==1 GOTO :WHITE
+	IF %QUESTION%==2 GOTO :GREEN
+	IF %QUESTION%==3 GOTO :RED
 
+:WHITE
+	COLOR 07
+	GOTO :0
+:GREEN
+	COLOR 0a
+	GOTO :0
+:RED
+	COLOR 0c
+	GOTO :0
+
+	
+	
 :1
 	cls
 	echo Intro
